@@ -1,2 +1,0 @@
-# CppLabs
-C++
