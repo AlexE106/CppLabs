@@ -11,7 +11,7 @@ const int width = 61;
 const int height = 21;
 int x, y, foodx, foody, score;
 int tailX[100], tailY[100], ntail;
-char nickname[255];
+char *nickname = new char[255];
 enum eDirecrion { stop = 0, Left, Righr, Up, Down };
 eDirecrion dir;
 
